@@ -14,8 +14,7 @@ module.exports = {
   devtool: "source-map",
   devServer: {
     contentBase: path.join(__dirname, "dist"),
-    port: 1337,
-    allowedHosts: 'all'
+    port: 1337
   },
   output: {
     publicPath: "auto",
