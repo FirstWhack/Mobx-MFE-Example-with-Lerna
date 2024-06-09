@@ -7,11 +7,11 @@
   },
   "scripts": {
     "start:sandbox": "yarn install && yarn start",
-    "start": "yarn workspaces foreach -piv run start",
-    "build": "yarn workspaces foreach -piv run build"
+    "start": "yarn workspaces foreach --all -piv run start",
+    "build": "yarn workspaces foreach --all -piv run build"
   },
   "keywords": [],
   "name": "react-sharedmobx-mfe-example",
   "description": "",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@4.2.2"
 }
